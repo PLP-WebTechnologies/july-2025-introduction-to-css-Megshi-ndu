@@ -1,0 +1,95 @@
+/* Example CSS for Box Model Demonstration */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-heading {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.main-nav .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-content {
+    padding: 40px 0;
+}
+
+.content-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 24px;
+    margin-bottom: 32px;
+}
+
+.card-heading {
+    margin-top: 0;
+}
+
+.box-model-visual {
+    width: 120px;
+    height: 120px;
+    margin: 16px 0;
+}
+
+.margin-demo {
+    background: #e0e0e0;
+    margin: 32px;
+}
+
+.padding-demo {
+    background: #c0e0ff;
+    padding: 32px;
+}
+
+.border-demo {
+    background: #ffe0e0;
+    border: 8px solid #ff8888;
+}
+
+.btn {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.site-footer {
+    background: #222;
+    color: #fff;
+    padding: 16px 0;
+    text-align: center;
+}
+
+.footer-text {
+    margin: 0;
+}
